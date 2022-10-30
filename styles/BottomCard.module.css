@@ -1,0 +1,30 @@
+.container {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 30%;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+  }
+
+  .infos {
+    width: 40%;
+    font-size: 14px;
+    margin: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+  }
+

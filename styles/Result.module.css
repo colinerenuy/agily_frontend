@@ -1,0 +1,34 @@
+.main {
+    max-height: 100vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: pink;
+    padding-left: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.buttonBack {
+    background-Color: darkgreen;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: white;
+}
+
+.left {
+    width: 70vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
