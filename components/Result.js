@@ -19,8 +19,11 @@ useEffect(() => {
 fetch(`http://localhost:3000/weather/${city}`)
 .then(response => response.json())
 .then(data => {
-  setCityData(data)
+  //Bottom Card display seulement la date d'aujourd'hui au chargement
   setBottomCardData(data[0])
+  //Les cartes de droites display le reste des jours
+  data.shift()
+  setCityData(data)
 })
 }, []);
 
